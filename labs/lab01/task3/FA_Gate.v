@@ -12,6 +12,7 @@
 // Part (b): after completing (a), change every gate's delay from a single
 // constant value to a RISE/FALL pair instead, e.g.:
 //   xor #(2,3) (ps, a, b);   // rise delay = 2, fall delay = 3
+
 // This tells the simulator to use a different delay depending on whether
 // the gate's output is transitioning 0->1 (rise) or 1->0 (fall) -- real
 // gates are rarely symmetric this way. Re-simulate with the SAME
